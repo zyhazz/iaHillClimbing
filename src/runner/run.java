@@ -1,8 +1,9 @@
+package runner;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import boards.Move;
+import hillClimbing.Move;
 
 public class run {
 
@@ -22,7 +23,7 @@ public class run {
 				System.out.println(Arrays.toString(j));
 			}
 		}
-		move = move.clone();
+		//move = move.clone();
 		move.matrix = new int[3][3];
 		list.add(move);
 		for(Move i: list) {
