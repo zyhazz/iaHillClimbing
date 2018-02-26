@@ -1,4 +1,4 @@
-package boards;
+package hillClimbing;
 
 public class Move {
 	public int row;

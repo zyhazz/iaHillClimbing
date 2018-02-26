@@ -1,4 +1,4 @@
-package boards;
+package hillClimbing;
 
 import java.util.ArrayList;
 import java.util.Arrays;
