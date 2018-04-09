@@ -5,12 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class Queens {
+public class QueensHC {
 	private int nqueens;
 	private int [][] board;
 	private int [] positions;
 	private List<Move> solution;
-	public Queens(int nqueens) {
+	public QueensHC(int nqueens) {
 		this.nqueens = nqueens;
 		this.board = new int[nqueens][nqueens];
 		this.positions = new int[nqueens];

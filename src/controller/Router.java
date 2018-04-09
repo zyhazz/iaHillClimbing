@@ -3,7 +3,7 @@ package controller;
 import java.io.IOException;
 import com.google.gson.*;
 
-import hillClimbing.Queens;
+import hillClimbing.QueensHC;
 
 import java.util.ArrayList;
 
@@ -45,7 +45,7 @@ public class Router extends HttpServlet {
 		}
 	}
 	private void main(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		Queens queens = new Queens(8);
+		QueensHC queens = new QueensHC(8);
 		Gson gson = new Gson();
 		
 		request.setAttribute("queens1", gson.toJson(queens.getPositions()));
